@@ -1,0 +1,9 @@
+train: ../toilet_dataset/images/train
+val: ../toilet_dataset/images/val
+# test images omitted
+
+is_coco: False
+
+nc: 4 # number of classes
+names: ['Sit', 'Bed', 'Stand', 'Lie']  # class names
+
